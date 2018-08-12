@@ -1,0 +1,20 @@
+ TDD （测试驱动开发）和 BDD （行为驱动开发）
+Jest：通过比对 UI 代码生成的快照文件、自带断言、测试覆盖率；， Jest 内部使用了 Jasmine 2 来进行测试，故其用例语法与 Jasmine 相同（test、expect、toBe、describe、beforeAll、toBeTruthy、toBeFalsy、afterAll），Jest 也支持 async/await 语法的测试
+
+karma：启动一个web服务器，生成包含js源代码和js测试脚本的页面；运行浏览器加载页面，并显示测试结果；如果开启检测，当文件有修改时，立即执行以上过程。自带断言、测试覆盖率
+
+mocha:使用mocha配合chai以及mocha-phantomjs可以很方便的对函数的执行进行一步一步的监控
+Qunit:Qunit可以在一个测试现在多个断言数
+Jasmine:有子分组，而且分组很清晰,这是两个Jasmine独有的东西，非常好。我也非常喜欢这两个功能Mock Clock能让你Mock一个时间间隔（这里我们可以精确的测试我们的代码执行时间），Spies可以用你知道函数的被调用次数和调用的方式
+jsTestDriver
+JSUnit
+
+参考
+https://blog.csdn.net/dyllove98/article/details/9500033
+最终选了jasmine
+
+需要全局安装jasmine
+npm install -g jasmine
+请参考如何离线加载全局变量模块
+
+https://blog.csdn.net/summer00072/article/details/79934100
