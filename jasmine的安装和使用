@@ -82,12 +82,12 @@ objectDifference
 --------------------------
 jasmine提供了80个方法，这里来分类一下
 提供类型判断方法有15个
-isA_
+isA_ //使用Object.prototype.toString是其他函数的基础函数；调用到getType_
 isArray_
 isAsyncFunction_
 isDomNode
 isError_
-isFunction_
+isFunction_  //调用isA_ 
 isMap
 isNumber_
 isObject_
@@ -159,7 +159,7 @@ formatErrorMsg
 getClearStack
 getEnv
 getGlobal
-getType_
+getType_  //使用Object.prototype.toString
 objectContaining
 pp
 stringMatching
@@ -185,11 +185,43 @@ env就是jasmine.currentEvn_
 3个factory
 asyncExpectationFactory
 expectationFactory
-expectationResultFactory
+expectationResultFactory //形参实这样的data = {matcherName: '',passed: false,expected: '', actual: '',error: arguments[0]};
+                        messageFormatter得到一个j$.ExceptionFormatter()实例
+                       data.messageFormatter = exceptionFormatter.message;
+                       data.stackFormatter = exceptionFormatter.stack;
+                       
+                       返回一个result，其中message如果data.passed为true就是Passed.否则是data.message或者messageFormatter(data.error);
+                       stack如果data.passed为true就是Passed.stackFormatter(data.error)或者data.errorForStack或者data.stack或者当前new errortrycatch
 
 2个标识
 description
 id
+
+原型里面扩展了一下方法
+addChild //这个再addSpecsToSuite会调用，this.children调用push；因为是原型上的方法，这里this就指向了suite实例
+addDeprecationWarning
+addExpectationResult
+afterAll
+afterEach
+beforeAll
+beforeEach
+canBeReentered
+cleanupBeforeAfter
+clonedSharedUserContext
+expect
+expectAsync
+getFullName
+getResult
+onException//这个会在函数里面有js错误的时候收集这些错误，并且绑定到suite上可以知道是哪一个suite报的错
+
+             1、如果这个错误是 j$.errors.ExpectationFailed这个实例，就表示不收集
+             这个错误是在suite这个addExpectationResult抛出也可以是spec的addExpectationResult抛出就会
+             
+             2、如果是正常的异常调用expectationResultFactory得到一个failedExpectation并且存储在suite.result.failedExpectations
+          
+pend
+sharedUserContext
+status
 
 -------------------------------------
 it调用，这个函数返回一个Spec类
@@ -213,4 +245,28 @@ resultCallback
 result会将matcher整合passedExpectations
 {matcherName: "toEqual", message: "Passed.", stack: "", passed: true}
 
+------------------------------------------
+expect调用返回的是一个Expectation类
+actual //用于存储实参
+addExpectationResult
+customEqualityTesters
+isNot
+not //这个也是一个Expectation
+toBePlaying //这个是jasmine.addMatchers添加过来的
+util这个和jasmine的matchersUtil是同一个
+并且Expectation类的原型继承了jasmine.mathers,且在次基础上多扩展一个wrapCompare方法
 
+---------------------------------调用流程-----------------------------------------------
+describe调用传入两个参数
+
+校验currentlyExecutingSuites是否为空，这个currentlyExecutingSuites是会在nodestart和jasmineStarted调用，即在这个时间里面不能调用descrbe
+
+内部会使用j$==jasmine来表示
+
+最终这个得到suiteFactory创建的一个suite，使用currentDeclarationSuite来存储这个suite0
+然后通过addSpecsToSuite来执行function
+currentDeclarationSuite变成了当前suite，这个下一个suite可以通过这变量获取到parentsuite
+最终currentDeclarationSuite是会变回原来的值
+specDefinitions会try catch错误会在  suite.onException被执行
+
+最终定义的function被调用，并且将suite当做this调用实测function  specDefinitions.call(suite);
