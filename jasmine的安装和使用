@@ -175,7 +175,7 @@ children是个Spec类
 afterAllFns
 afterFns
 beforeAllFns
-beforeFns
+beforeFns //后进先出的规则得到callback
 
 parentSuite；默认的parentSuite id是suite0
 result结构集
@@ -204,7 +204,8 @@ addExpectationResult
 afterAll
 afterEach
 beforeAll
-beforeEach
+beforeEach //this.beforeFns.unshift后进先出的规则
+
 canBeReentered
 cleanupBeforeAfter
 clonedSharedUserContext
@@ -257,7 +258,7 @@ util这个和jasmine的matchersUtil是同一个
 并且Expectation类的原型继承了jasmine.mathers,且在次基础上多扩展一个wrapCompare方法
 
 ---------------------------------调用流程-----------------------------------------------
-describe调用传入两个参数
+describe调用流程
 
 校验currentlyExecutingSuites是否为空，这个currentlyExecutingSuites是会在nodestart和jasmineStarted调用，即在这个时间里面不能调用descrbe
 
@@ -270,3 +271,17 @@ currentDeclarationSuite变成了当前suite，这个下一个suite可以通过�
 specDefinitions会try catch错误会在  suite.onException被执行
 
 最终定义的function被调用，并且将suite当做this调用实测function  specDefinitions.call(suite);
+-------------------------------------------
+beforeEach调用流程
+在整个子页面调用过程currentDeclarationSuite指向的是decribe
+  currentDeclarationSuite.beforeEach({
+        fn: beforeEachFunction,
+        timeout: timeout || 0
+      });
+      
+-------------------------------------------------
+it调用流程
+通过specFactory得到spec实例j$.Spec(）
+currentDeclarationSuite.addChild(spec)
+
+
