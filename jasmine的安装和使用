@@ -67,7 +67,7 @@ contains
 equals
 ---------------------------------------------
 jasmine.util提供了12个方法
-argsToArray
+argsToArray //将arguments变为数组，方便调用数组的方法
 arrayContains
 clone
 cloneArgs
@@ -113,17 +113,100 @@ Env
 ExceptionFormatter
 Expectation
 Falsy
-GlobalErrors
-HtmlReporter
+GlobalErrors 内部全局globalErrors是这个的实例
+           //install
+           //installOne_
+           //originalHandlers
+           //popListener
+           //pushListener  将suite存储到全局的handler上面
+           //uninstall
+
+HtmlReporter 
+          参数
+       options.env
+       options.getContainer,
+       options.createElement,
+       options.createTextNode,
+       options.navigateWithNewParam 
+       options.addToExistingQueryString 
+       options.filterSpecs,
+       options.timer 
+          得到实例
+            //displaySpecInCorrectFormat
+            //initialize //通过options.getContainer获得根节点，并且将结构插入到根节点
+                         <div class="jasmine_html-reporter">
+                         <div class="jasmine-banner">
+                         <a class="jasmine-title" href="http://jasmine.github.io/" target="_blank"></a>
+                         <span class="jasmine-version">3.2.0</span>
+                         </div>
+                         <ul class="jasmine-symbol-summary"></ul>
+                         <div class="jasmine-alert"></div>
+                         <div class="jasmine-results">
+                         <div class="jasmine-failures"></div>
+                         </div>
+                         </div>
+            
+            //jasmineDone
+            //jasmineStarted
+            //resultStatus
+            //specDone
+            //specStarted
+            //suiteDone
+            //suiteStarted
+
 HtmlSpecFilter
 JsApiReporter
 MockDate
 NotEmpty
 ObjectContaining
 ObjectPath
-Order
+Order    //
+    参数
+       random: random,
+       seed: seed
+    得到一个实例
+     random
+     seed
+     sort
+
 QueryString
-QueueRunner
+QueueRunner  //重要的执行函数
+          
+          参数
+           options.clearStack
+           options.completeOnFirstError
+           options.deprecated
+           options.fail
+           options.globalErrors
+           options.isReporter
+           options.onComplete
+           options.onException
+           options.queueableFns
+           options.timeout
+           实例
+           clearStack
+           completeOnFirstError
+           deprecated
+           errored
+           fail
+           firstCleanupIx
+           globalErrors
+           handleFinalError
+           onComplete
+           onException
+           queueableFns //reporter.jasmineStarted函数传递进来的函数
+           timeout
+           userContext //最终会以this方式传递到queueableFns
+        -----proto
+           attempt   //封装next函数，根据queueableFns中的函数的timeout来提示是否执行异步操作
+           clearTimeout
+           execute
+           run
+           setTimeout
+           skipToCleanup
+
+
+
 ReportDispatcher
 ResultsNode
 Spec
@@ -136,7 +219,20 @@ StopExecutionError
 StringMatching
 Suite
 Timer
-TreeProcessor
+TreeProcessor    //
+        参数
+               tree
+              runnableIds
+              queueRunnerFactory
+              nodeStart
+              nodeComplete
+              orderChildren
+              excludeNode
+      实例
+       execute
+       processTree
+
+
 Truthy
 UserContext
 
@@ -235,7 +331,7 @@ queueRunnerFactory
 
 beforeAndAfterFns
 catchingExceptions
-getSpecName
+getSpecName  //先得到父类的fullname（即父类的description 树）如何将本身的description空格方式拼接到一起
 queueableFn
 userContext
 onStart
@@ -245,6 +341,18 @@ resultCallback
 
 result会将matcher整合passedExpectations
 {matcherName: "toEqual", message: "Passed.", stack: "", passed: true}
+
+原型里面扩展了一下方法
+addDeprecationWarning
+addExpectationResult
+execute
+expect
+expectAsync
+getFullName  //调用的是getSpecName
+getResult
+onException
+pend
+status
 
 ------------------------------------------
 expect调用返回的是一个Expectation类
@@ -283,5 +391,15 @@ beforeEach调用流程
 it调用流程
 通过specFactory得到spec实例j$.Spec(）
 currentDeclarationSuite.addChild(spec)
+
+-------------------------------------------------启动流程---------------------------------------------
+html-standlone方式需要以下文件
+jasmine.css,jasmine.js,jasmine.core.js,boot.js
+
+在boot.js可以看到
+    htmlReporter.initialize(); 创建html结构
+    env.execute(); 创建jasmine.Order、和jasmine.TreeProcessor通过treeprocessor.processTree方法来创建一个process的树型结构
+    启动reporter.jasmineStarted
+    通过jasmine.ReportDispatcher来派送方法
 
 
