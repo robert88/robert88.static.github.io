@@ -1,0 +1,54 @@
+以下个核心概念
+entry
+output
+loader
+plugins
+mode
+optimization
+devtool
+
+
+entry
+来指定一个入口起点（或多个入口起点）。默认值为 "./src"
+entry不配置的情况下，默认值是"./src"，webpack就会找到src目录下的index.js打包到output里面
+
+--------------------------
+devtool
+https://www.cnblogs.com/wangyingblog/p/7027540.html
+eval	每个module会封装到 eval 里包裹起来执行，并且会在末尾追加注释 //@ sourceURL.
+source-map	生成一个SourceMap文件.
+hidden-source-map	和 source-map 一样，但不会在 bundle 末尾追加注释.
+inline-source-map	生成一个 DataUrl 形式的 SourceMap 文件.
+eval-source-map	每个module会通过eval()来执行，并且生成一个DataUrl形式的SourceMap.
+cheap-source-map	生成一个没有列信息（column-mappings）的SourceMaps文件，不包含loader的 sourcemap（譬如 babel 的 sourcemap）
+cheap-module-source-map	生成一个没有列信息（column-mappings）的SourceMaps文件，同时 loader 的 sourcemap 也被简化为只包含对应行的。
+
+
+webpack 不仅支持这 7 种，而且它们还是可以任意组合上面的eval、inline、hidden关键字，就如文档所说，你可以设置 souremap 选项为 cheap-module-inline-source-map。
+cheap-module-eval-source-map
+cheap-module-hidden-source-map
+cheap-module-inline-source-map
+
+----------------------------
+mode
+"development" //|| "production",
+开发模式，不会混淆压缩打包，只是正常的合并
+默认值为production
+会混淆打包
+
+-------------------------
+默认即没有entry也没有output的情况下，webpack会进行下列操作
+1、entry就会找到"./src/index.js",
+mode:"production"并且混淆压缩的方式
+打包到"./dist/main.js"
+
+mode:"development" 来取消混淆打包，看看打包之后的文件是什么样的
+原理利用表达式 !function(){console.log(arguments)}(1,2)的方式包裹函数
+会模拟node调用的方式
+****/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+最终返回return module.exports;
+https://segmentfault.com/a/1190000010955254
+
+devtool：默认是eval
+会以eval("console.log(\"test\")\n\n//# sourceURL=webpack:///./src/index.js?");这种方式包裹
+l	每个module会封装到 eval 里包裹起来执行，并且会在末尾追加注释 //@ sourceURL.
