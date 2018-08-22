@@ -1,0 +1,50 @@
+Vue 最早会打包生成三个文件，一个是 runtime only 的文件 vue.common.js，一个是 compiler only 的文件 compiler.js，一个是 runtime + compiler 的文件 vue.js。
+
+也就是说，vue.js = vue.common.js + compiler.js，而如果要使用 template 这个属性的话就一定要用 compiler.js，那么，引入 vue.js 是最恰当的。
+
+如果[Vue warn]: You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build.
+
+表示只引用了runtime only
+
+npm安装的vue package中的main指定的是  ，webpack会选用module
+"main": "dist/vue.runtime.common.js",
+"module": "dist/vue.runtime.esm.js",
+
+
+new Vue
+
+得到的是实例有：
+$data
+$isServer
+$props
+$ssrContext
+$delete
+$destroy
+$emit
+$forceUpdate
+$mount
+$nextTick
+$off
+$on
+$once
+$set
+$watch
+__patch__
+_b
+_e
+_f
+_g
+_i
+_init
+_k
+_l
+_m
+_n
+_o
+_q
+_render
+_s
+_t
+_u
+_update
+_v
