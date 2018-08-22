@@ -21,5 +21,6 @@
   "homepage": "https://github.com/robert88/robert88.static.github.io#readme",
   "devDependencies": {
     "vue": "^2.5.17"
-  }
+  },
+  "dependencies": {}
 }

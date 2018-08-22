@@ -53,6 +53,69 @@ devtool：默认是eval
 会以eval("console.log(\"test\")\n\n//# sourceURL=webpack:///./src/index.js?");这种方式包裹
 l	每个module会封装到 eval 里包裹起来执行，并且会在末尾追加注释 //@ sourceURL.
 
+
+----------------------------cli命令说明----------------------
+$ webpack --config webpack.config2.js 使用另一份配置文件（比如webpack.config2.js）来打包
+$ webpack --watch, $ webpack -w//监听变动并自动打包
+$ webpack -p//压缩混淆脚本，这个非常非常重要！
+$ webpack -d//生成map映射文件，告知哪些模块被最终打包到哪里了其中的
+$ webpack --progress //显示进度条
+$ webpack --color,$ webpack -c //添加颜色
+$ webpack --profile #输出性能数据，可以看到每一步的耗时
+$ webpack --display-modules #默认情况下 node_modules 下的模块会被隐藏，加上这个参数可以显示这些被隐藏的模块
+
+  --context
+  --entry
+  --module-bind
+  --module-bind-post
+  --module-bind-pre
+  --output-path
+  --output-file
+  --output-chunk-file
+  --output-named-chunk-file
+  --output-source-map-file
+  --output-public-path
+  --output-jsonp-function
+  --output-pathinfo
+  --output-library
+  --output-library-target
+  --records-input-path
+  --records-output-path
+  --records-path
+  --define
+  --target
+  --cache                                                                                           [default: true]
+  --watch-aggregate-timeout
+  --watch-poll
+  --hot
+  --debug
+  --devtool
+  --progress
+  --resolve-alias
+  --resolve-loader-alias
+  --optimize-max-chunks
+  --optimize-min-chunk-size
+  --optimize-minimize
+  --optimize-occurence-order
+  --optimize-dedupe
+  --prefetch
+  --provide
+  --labeled-modules
+  --plugin
+  --bail
+  --json, -j
+  --sort-modules-by
+  --sort-chunks-by
+  --sort-assets-by
+  --hide-modules
+  --display-exclude
+  --display-chunks
+  --display-error-details
+  --display-origins
+  --display-cached
+  --display-cached-assets
+  --display-reasons, --verbose, -v
+
 --------------------------------------
 
 webpack插件
