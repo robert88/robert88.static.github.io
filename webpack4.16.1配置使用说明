@@ -6,7 +6,7 @@ plugins
 mode
 optimization
 devtool
-
+resolve
 
 entry
 来指定一个入口起点（或多个入口起点）。默认值为 "./src"
@@ -52,3 +52,50 @@ https://segmentfault.com/a/1190000010955254
 devtool：默认是eval
 会以eval("console.log(\"test\")\n\n//# sourceURL=webpack:///./src/index.js?");这种方式包裹
 l	每个module会封装到 eval 里包裹起来执行，并且会在末尾追加注释 //@ sourceURL.
+
+--------------------------------------
+
+webpack插件
+plugins
+数组形式包住一个个 plugin 实例。
+定义全局变量
+webpack.DefinePlugin (官方的文档)
+webpack.xxxxPlugin 这种插件是 webpack 的内置插件。
+DefinePlugin：它的作用是定义全局常量，是常量。即在模块用它定义的全局常量，那么你就不能改变它的值啦。用法例子：
+Plugins: [
+    new webpack.DefinePlugin({
+        '_ABC_': false
+    })
+]
+自己定义一个需要定义apply
+一、
+ConsoleLogOnBuildWebpackPlugin.prototype.apply = function(compiler) {
+  compiler.plugin('run', function(compiler, callback) {
+    console.log("webpack 构建过程开始！！！");
+    callback();
+  });
+};
+二、
+ let compiler = webpack(require('./webpack.config.js'));
+  compiler.apply(new webpack.ProgressPlugin());
+  compiler.run(function(err, stats) {
+    // ...
+  });
+  
+  内置plugins
+  HotModuleReplacementPlugin --hot
+  MinChunkSizePlugin --optimize-min-chunk-size
+  LimitChunkCountPlugin --optimize-max-chunks
+  webpackJsonp --output-jsonp-function
+  UglifyJsPlugin --optimize-minimize
+  LoaderOptionsPlugin --optimize-minimize
+
+
+  ------------------------------------
+  resolve
+  解决require和import路径问题
+   resolve：{
+        alias: {
+            'vue': 'vue/dist/vue.js'
+        }
+    },
