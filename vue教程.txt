@@ -1,4 +1,4 @@
-Vue 最早会打包生成三个文件，一个是 runtime only 的文件 vue.common.js，一个是 compiler only 的文件 compiler.js，一个是 runtime + compiler 的文件 vue.js。
+﻿Vue 最早会打包生成三个文件，一个是 runtime only 的文件 vue.common.js，一个是 compiler only 的文件 compiler.js，一个是 runtime + compiler 的文件 vue.js。
 
 也就是说，vue.js = vue.common.js + compiler.js，而如果要使用 template 这个属性的话就一定要用 compiler.js，那么，引入 vue.js 是最恰当的。
 
@@ -48,3 +48,7 @@ _t
 _u
 _update
 _v
+
+
+看源码里vue的import路径会有映射的概念
+需要看在用rollup打包的时候，有这么一个别名的配置
