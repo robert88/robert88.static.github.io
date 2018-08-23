@@ -7,7 +7,10 @@ mode
 optimization
 devtool
 resolve
-
+module
+----------------------------
+https://webpack.js.org/configuration/configuration-languages/
+---------------------------
 entry
 来指定一个入口起点（或多个入口起点）。默认值为 "./src"
 entry不配置的情况下，默认值是"./src"，webpack就会找到src目录下的index.js打包到output里面
@@ -159,6 +162,16 @@ ConsoleLogOnBuildWebpackPlugin.prototype.apply = function(compiler) {
   解决require和import路径问题
    resolve：{
         alias: {
-            'vue': 'vue/dist/vue.js'
+            'vue$': 'vue/dist/vue.js'
         }
     },
+$表示结尾的意思，意思就是匹配vue
+如果没有$表示可以匹配vue这个单词
+-----------------------------------------
+module
+
+定义rules
+
+[
+    { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
+]
