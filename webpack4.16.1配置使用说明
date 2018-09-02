@@ -1,13 +1,14 @@
-以下个核心概念
+﻿以下个核心概念
 entry
 output
-loader
 plugins
 mode
 optimization
 devtool
 resolve
-module
+module.rules.loader
+target
+externals
 ----------------------------
 https://webpack.js.org/configuration/configuration-languages/
 ---------------------------
@@ -170,8 +171,68 @@ $表示结尾的意思，意思就是匹配vue
 -----------------------------------------
 module
 
-定义rules
+定义rules和loader
 
 [
-    { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
+    { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
+     {
+          test: '\.vue$',
+          loader: 'vue-loader',
+          options: {
+            cssModules: {
+              localIdentName: '[path][name]---[local]---[hash:base64:5]',
+              camelCase: true
+            }
+          }
+        },
+        { test: /\.txt$/, use: 'raw-loader' }
+        ,
+           {
+            test: /\.js$/,
+            loader: 'babel-loader',
+            exclude: /node_modules/,
+            include: resolve('src')
+           },
+           {
+                test: /\.s?css$/,
+                use: [
+                 MiniCssExtractPlugin.loader,
+                 'css-loader',
+                 'sass-loader'
+                ]
+               },
+               {
+                test: /.(png|jpe?g|gif|svg)(\?.*)?$/,
+                loader: 'url-loader',
+                options: {
+                 limit: 10000,
+                 name: 'static/img/[name].[hash:7].[ext]'
+                }
+               },
+               {
+                test: /\.(js|vue)$/,
+                loader: 'eslint-loader',
+                enforce: 'pre',
+                include: [resolve('src')],
+                exclude: /node_modules/,
+                options: {
+                 formatter: require('eslint-friendly-formatter'),
+                 emitWarning: !config.dev.showEslintErrorsInOverlay
+                }
+               },
 ]
+vue-loader是一个webpack的loader；可以将vue文件转换为JS模块；
+vue-loader只处理.vue文件，你需要告诉webpack如何使用babel-loader或者buble-loader处理.js文件，在webpack中配置babel-loader或者buble-loader
+vue-loader依赖css-loader、vue-template-compiler
+所以要同时安装这两个
+html-webpack-plugin插件来导出html文件。
+这里打包css以sass 为例，用到了mini-css-extract-plugin插件提取css，用url-loader来处理字体、图片、音频等资源。非常简单
+postcss-loader
+通过eslint-loader 来配置eslint的检查，建立.eslintrc.js去设置规则
+--------------------------------------------
+externals
+表示不需要打包
+---------------------------------------------
+target
+node表示运行环境为target
+----------------------------------------------

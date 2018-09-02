@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/robert88/robert88.static.github.io#readme",
   "devDependencies": {
-    "vue": "^2.5.17"
+    "css-loader": "^1.0.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "vue-template-compiler": "^2.5.17"
+  }
 }

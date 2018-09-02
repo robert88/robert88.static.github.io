@@ -1,0 +1,16 @@
+postcss教程
+解决哪些问题
+1、CSS命名的冲突
+一种是CSS-in-JS，另一种是CSS Modules。
+
+postcss自动处理得到json文件class映射，
+scss -> 打包之后的class；引用对象.(scss的classname)
+
+然后模块里面使用import这个json文件
+
+使用到的npm包有
+var postcss = require('postcss');
+
+glup
+var postcss = require('gulp-postcss'); 
+var cssModules = require('postcss-modules');

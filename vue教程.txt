@@ -56,6 +56,8 @@ _provided
 _name
 _isMounted
 
+cid
+
 -------------------------------------------------
 看源码里vue的import路径会有映射的概念
 需要看在用rollup打包的时候，有这么一个别名的配置
@@ -100,5 +102,51 @@ created
 template
 beforeMount
 mounted
+name
   --------------------------------------------------
  https://www.cnblogs.com/sichaoyun/p/8406194.html
+ -----------------------------------------------
+ component
+ 创建组件构造器、注册组件和使用组件
+ 注册组件Vue.component
+ 第一是directive自定义标签;,第二个是Vue.extend一个对象即VueComponet构造函数
+ initAssetRegisters这个就是初始化components、directives、filters；可以看出这三个的逻辑是一样的
+ 参数id, definition
+ 
+ 如果definition不传递，表示获取组件id；Vue.components(id)==Vue.options.components[id]
+ 
+ 如果definition是对象
+  definition.name = definition.name || id;
+definition = this.options._base.extend(definition);
+
+最后Vue.options.components存储这个实例，这样说来，就不用extend也是可以的
+ -------------------------------------------------------------------------------
+ Vue.extend
+ Vue.options._base.extend ==  Vue.extend
+ 参数是个options
+ template
+ _Ctor内部定义的缓存
+ name
+得到实例
+ 继承了Vue.prototype
+ super表示是vue
+ cid
+ options将当前的options和Vue的options合并，由于这个是在newVue之前，所以只会合并components、directives、filters、_base
+ 其中如果有name会存储.components[name]存储这个实例
+
+ 以下六个都是super的属性
+extend;
+mixin;
+use;
+components、
+directives、
+filters
+
+superOptions对于super.options
+extendOptions表示传递来的参数
+sealedOptions表示super.opitons的拷贝
+实例会被super.cid为key的方式存储
+
+------------------------------------
+如果需要使用.vue文件作为模块，就需要
+vue-loader是一个webpack的loader；可以将vue文件转换为JS模块； 包含三种类型的顶级语言快< template>< script>< style>
