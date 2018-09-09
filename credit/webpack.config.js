@@ -1,4 +1,9 @@
 const ConsoleLogOnBuildWebpackPlugin = require("./webpackCoustomPlugin_Test.js")
+var path =require("path");
+function resolve(file) {
+	console.log(path.resolve(__dirname,file))
+	return path.resolve(__dirname,file);
+}
 exports = module.exports = function () {
 	return {
 		mode: "development",
@@ -14,7 +19,7 @@ exports = module.exports = function () {
 					test: /\.js$/,
 					loader: 'babel-loader',
 					exclude: /node_modules/,
-					include: resolve('src')
+					include: resolve('./src')
 				}
 			]
 		},

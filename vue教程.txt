@@ -150,3 +150,20 @@ sealedOptions表示super.opitons的拷贝
 ------------------------------------
 如果需要使用.vue文件作为模块，就需要
 vue-loader是一个webpack的loader；可以将vue文件转换为JS模块； 包含三种类型的顶级语言快< template>< script>< style>
+-------------------------------------
+vue需要配置webpack插件或者babel插件
+babel-plugin-transform-vue-jsx
+这个组件和babel-plugin-transform-react-jsx不能同时使用
+Usage
+npm install\
+  babel-plugin-syntax-jsx\
+  babel-plugin-transform-vue-jsx\
+  babel-helper-vue-jsx-merge-props\
+  babel-preset-env\
+  --save-dev
+In your .babelrc:
+
+{
+  "presets": ["env"],
+  "plugins": ["transform-vue-jsx"]
+}

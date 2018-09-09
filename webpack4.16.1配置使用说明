@@ -229,6 +229,8 @@ html-webpack-plugin插件来导出html文件。
 这里打包css以sass 为例，用到了mini-css-extract-plugin插件提取css，用url-loader来处理字体、图片、音频等资源。非常简单
 postcss-loader
 通过eslint-loader 来配置eslint的检查，建立.eslintrc.js去设置规则
+babel-load必须然后必须安装babel-loader babel-core
+https://www.npmjs.com/package/babel-loader
 --------------------------------------------
 externals
 表示不需要打包

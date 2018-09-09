@@ -1,0 +1,21 @@
+允许我们编写看起来像 HTML的JavaScript
+
+
+class Header extends React.Component {
+  render() {
+    return (
+      <h1>Hello World</h1>
+    );
+  }
+
+  render()函数看起来像它的返回HTML，但其实这是JSX
+
+需要使用到babel
+react-jsx
+babel-plugin-syntax-jsx
+babel-plugin-transform-react-jsx
+eslint-plugin-jsx-a11y
+babel-plugin-transform-react-jsx-source
+babel-plugin-transform-react-jsx-self
+babel-plugin-transform-vue-jsx
+等等很多在npm包里面有
