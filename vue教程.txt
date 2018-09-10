@@ -149,7 +149,25 @@ sealedOptions表示super.opitons的拷贝
 
 ------------------------------------
 如果需要使用.vue文件作为模块，就需要
-vue-loader是一个webpack的loader；可以将vue文件转换为JS模块； 包含三种类型的顶级语言快< template>< script>< style>
+vue-loader是一个webpack的loader；只将vue文件转换为JS模块； 包含三种类型的顶级语言快< template>< script>< style>
+
+-----------------------------------------------
+https://blog.csdn.net/xiaoheidaner2014/article/details/81506255
+ES2015默认可用；
+在每个 Vue 组件内支持其他的 Webpack 加载器，如用于<style>的 SASS 和用于<template> 的 Jade。
+编译 ES2015、CoffeeScript 或 TypeScript 模块成 ES5 CommonJS 的模块；
+
+编译之前，可以通过 linter 校验源代码。
+
+编译 Jade 模板成 HTML 并内联 JavaScript 字符串。
+
+编译 SASS 文件成 CSS，然后把生成的CSS插入到 <style> 标签内，然后再转译成 JavaScript 代码段。
+
+处理在 HTML 或 CSS 文件中引用的图片文件，根据配置路径把它们移动到任意位置，根据 MD5 hash 命名。
+vue-loader 默认用没有用语言编译器，想CSS 预编译和HTML模板编译语言等，如果想用这些功能，需要设置 lang 属性的来实现。
+<style lang="sass">
+  /* 编写 SASS! */
+</style>
 -------------------------------------
 vue需要配置webpack插件或者babel插件
 babel-plugin-transform-vue-jsx
@@ -167,3 +185,33 @@ In your .babelrc:
   "presets": ["env"],
   "plugins": ["transform-vue-jsx"]
 }
+-----------------------------
+报错
+vue-loader was used without the corresponding plugin.
+
+百度了一下，是因为vue-loader，15的版本需要再添加plugin的配置。有两种解决方法：
+https://blog.csdn.net/weixin_38098195/article/details/80630958
+官方是这样用的
+
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
+module.exports = {
+  module: {
+    rules: [
+      // ... other rules
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader'
+      }
+    ]
+  },
+  plugins: [
+    // make sure to include the plugin!
+    new VueLoaderPlugin()
+  ]
+}
+-----------------------
+报错
+[vue-loader] vue-template-compiler must be installed as a peer dependency
+vue-loader内部必须依赖vue-template-compiler，而且需要手动安装
+
+好像vue-loader内部默认可以处理es2015，所以可以不用安装babel来开发，除非要转义js文件

@@ -48,3 +48,8 @@ Plugin 会从第一个开始顺序执行
 Preset 的顺序则刚好相反(从最后一个逆序执行)。
 -------------------------------------------
 https://blog.csdn.net/monica12/article/details/76249868
+
+----------------------------------
+babel-loader安装说明
+https://www.npmjs.com/package/babel-loader
+npm install -D babel-loader @babel/core @babel/preset-env webpack
