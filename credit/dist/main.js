@@ -11439,10 +11439,15 @@ vue__WEBPACK_IMPORTED_MODULE_0__["default"].component('matrix-component',{
 
 vue__WEBPACK_IMPORTED_MODULE_0__["default"].component(_component_Alert_vue__WEBPACK_IMPORTED_MODULE_1__["default"].name, _component_Alert_vue__WEBPACK_IMPORTED_MODULE_1__["default"]);
 
+
 // 3.创建一个 Vue 实例或 "ViewModel"
 // 它连接 View 与 Model
 new vue__WEBPACK_IMPORTED_MODULE_0__["default"]({ // eslint-disable-line
-data:{d:1}
+	data:{d:1,title:"test"},
+
+	mounted(){
+
+	}
 }).$mount('#app');
 
 

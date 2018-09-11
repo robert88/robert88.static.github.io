@@ -26,7 +26,7 @@ exports = module.exports = function () {
 		},
 		plugins: [
 			new ConsoleLogOnBuildWebpackPlugin(),
-	    new VueLoaderPlugin()
+	    	new VueLoaderPlugin()
 		],
 		resolve: {
 			alias: {

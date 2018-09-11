@@ -215,3 +215,29 @@ module.exports = {
 vue-loader内部必须依赖vue-template-compiler，而且需要手动安装
 
 好像vue-loader内部默认可以处理es2015，所以可以不用安装babel来开发，除非要转义js文件
+-----------------------------------
+vue文件通过vue-loader转换为js对象
+computed
+data
+methods{close: ƒ}
+name
+props
+render
+staticRenderFns
+__file
+_compiled
+__proto__
+---------------------------------------
+所有的组件名称都是小写，如果有大写就会被转义为-连接
+如ElAlert使用的时候就要<el-alert>
+props定义变量可以使用
+{
+        type: String,
+        default: '',
+        required: true
+      },
+      来定义元素的类型和必填
+
+      <el-alert title="test">
+----------------------
+
