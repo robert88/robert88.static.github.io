@@ -255,6 +255,7 @@ url-loader会将引入的图片编码，生成dataURl；url-loader封装了file-
 4个参数：limit、name、outputPath、publicPath。
 两种方式字符串方式：1、use: 'url-loader?limit=1024&name=[path][name].[ext]&outputPath=img/&publicPath=output/',
 2、{ test: /\.(js|vue)$/, loader: 'eslint-loader', options: {}}
+如果没有设置limit将不会调用file-loader打包；全部转为base64方式
 
 1、在js中import图片然后赋值给图片的src属性
 import logo from '../img/logo.png';
