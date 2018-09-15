@@ -3,3 +3,5 @@ npm -D把依赖添加到devDependencies
 npm list --depth=0查看安装的依赖
 package-lock.json其实用一句话来概括很简单，就是锁定安装时的包的版本号，并且需要上传到git，以保证其他人在npm install时大家的依赖能保证一致
 package.json 文件（又称 pkg.module
+
+npm config edit会弹出编辑窗口，可以看到config的信息网上的淘宝镜像就是在这个里面
