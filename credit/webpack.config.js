@@ -1,37 +1,46 @@
-const ConsoleLogOnBuildWebpackPlugin = require("./webpackCoustomPlugin_Test.js")
-var path =require("path");
-function resolve(file) {
-	console.log(path.resolve(__dirname,file))
-	return path.resolve(__dirname,file);
-}
-const VueLoaderPlugin = require('vue-loader/lib/plugin')
-exports = module.exports = function () {
-	return {
-		mode: "development",
-		devtool: "source-map",
-		// loader: {test: /\.vue$/, loader: "vue-loader"},
-		module: {
-			rules: [
-				{
-					test: /\.vue$/,
-					loader: 'vue-loader'
+const HtmlWebPackPlugin = require("html-webpack-plugin");
+// const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
+module.exports = {
+	module: {
+		rules: [
+			{
+				test: /\.js$/,
+				exclude: /node_modules/,
+				use: {
+					loader: "babel-loader"
 				}
-				// {
-				// 	test: /\.js$/,
-				// 	loader: 'babel-loader',
-				// 	exclude: /node_modules/,
-				// 	include: resolve('./src')
-				// }
-			]
-		},
-		plugins: [
-			new ConsoleLogOnBuildWebpackPlugin(),
-	    	new VueLoaderPlugin()
-		],
-		resolve: {
-			alias: {
-				'vue$': 'vue/dist/vue.esm.js' // 'vue/dist/vue.common.js' for webpack 1
-			}
-		}
-	}
-}
+			},
+			{
+				test: /\.html$/,
+				use: [
+					{
+						loader: "file-loader",
+						options: { minimize: true }
+					}
+				]
+			},
+			// {
+			// 	test: /\.css$/,
+			// 	use: [MiniCssExtractPlugin.loader, "css-loader"]
+			// },
+			{
+				test: /\.(png|jpg|gif)$/,
+				loader: 'file-loader',
+				query:{
+					name:'img/[name]-[hash:5].[ext]'  //这里img是存放打包后图片文件夹，结合publicPath来看就是/webBlog/build/img文件夹中，后边接的是打包后图片的命名方式。
+				}
+			},
+		]
+	},
+	plugins: [
+		new HtmlWebPackPlugin({
+			template: "./src/index.html",
+			filename: "./index.html"
+		}),
+		// new MiniCssExtractPlugin({
+		// 	filename: "[name].css",
+		// 	chunkFilename: "[id].css"
+		// })
+	]
+};
