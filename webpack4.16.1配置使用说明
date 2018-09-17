@@ -157,7 +157,8 @@ ConsoleLogOnBuildWebpackPlugin.prototype.apply = function(compiler) {
   UglifyJsPlugin --optimize-minimize
   LoaderOptionsPlugin --optimize-minimize
 
-
+webpack-html-plugin
+html-webpack-plugin(目前是使用这个，但是上面的那个好像有点问题)
   ------------------------------------
   resolve
   解决require和import路径问题
