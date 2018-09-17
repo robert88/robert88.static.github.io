@@ -1,14 +1,14 @@
-postcss½Ì³Ì
-½â¾öÄÄĞ©ÎÊÌâ
-1¡¢CSSÃüÃûµÄ³åÍ»
-Ò»ÖÖÊÇCSS-in-JS£¬ÁíÒ»ÖÖÊÇCSS Modules¡£
+postcssæ•™ç¨‹
+è§£å†³å“ªäº›é—®é¢˜
+1ã€CSSå‘½åçš„å†²çª
+ä¸€ç§æ˜¯CSS-in-JSï¼Œå¦ä¸€ç§æ˜¯CSS Modulesã€‚
 
-postcss×Ô¶¯´¦ÀíµÃµ½jsonÎÄ¼şclassÓ³Éä£¬
-scss -> ´ò°üÖ®ºóµÄclass£»ÒıÓÃ¶ÔÏó.(scssµÄclassname)
+postcssè‡ªåŠ¨å¤„ç†å¾—åˆ°jsonæ–‡ä»¶classæ˜ å°„ï¼Œ
+scss -> æ‰“åŒ…ä¹‹åçš„classï¼›å¼•ç”¨å¯¹è±¡.(scssçš„classname)
 
-È»ºóÄ£¿éÀïÃæÊ¹ÓÃimportÕâ¸öjsonÎÄ¼ş
+ç„¶åæ¨¡å—é‡Œé¢ä½¿ç”¨importè¿™ä¸ªjsonæ–‡ä»¶
 
-Ê¹ÓÃµ½µÄnpm°üÓĞ
+ä½¿ç”¨åˆ°çš„npmåŒ…æœ‰
 var postcss = require('postcss');
 
 glup

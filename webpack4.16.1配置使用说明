@@ -142,7 +142,7 @@ ConsoleLogOnBuildWebpackPlugin.prototype.apply = function(compiler) {
     callback();
   });
 };
-二、
+二、hook
  let compiler = webpack(require('./webpack.config.js'));
   compiler.apply(new webpack.ProgressPlugin());
   compiler.run(function(err, stats) {
@@ -157,7 +157,61 @@ ConsoleLogOnBuildWebpackPlugin.prototype.apply = function(compiler) {
   UglifyJsPlugin --optimize-minimize
   LoaderOptionsPlugin --optimize-minimize
 
+html-webpack-plugin
+为html文件中引入的外部资源如script、link动态添加每次compile后的hash，防止引用缓存的外部文件问题
+可以生成创建html入口文件，比如单页面可以生成一个html文件入口，配置N个html-webpack-plugin可以生成N个页面入口
+var HtmlWebpackPlugin = require('html-webpack-plugin')
 
+webpackconfig = {
+    ...
+    plugins: [
+        new HtmlWebpackPlugin()
+    ]
+}
+将 webpack中`entry`配置的相关入口thunk  和  `extract-text-webpack-plugin`抽取的css样式   插入到该插件提供的`template`或者`templateContent`配置项指定的内容基础上生成一个html文件，具体插入方式是将样式`link`插入到`head`元素中，`script`插入到`head`或者`body`中。
+
+參數有
+      template: path.join(__dirname, 'default_index.ejs'),
+      templateParameters: templateParametersGenerator,
+      filename: 'index.html',
+      hash: false,
+      inject: true,
+      compile: true,
+      favicon: false,
+      minify: false,// { removeAttributeQuotes: true // 移除属性的引号 }注minify: true , 这样会报错
+      cache: true,
+      showErrors: true,
+      chunks: 'all',
+      excludeChunks: [],
+      chunksSortMode: 'auto',
+      meta: {},
+      title: 'Webpack App',
+      xhtml: false
+
+template指定你生成的文件所依赖哪一个html文件模板，模板类型可以是html、jade、ejs等。但是要注意的是，如果想使用自定义的
+title生成html文件的标题
+filename就是生成html文件的文件名
+inject有四个值： true body head false
+	true 默认值，script标签位于html文件的 body 底部
+	body script标签位于html文件的 body 底部
+	head script标签位于html文件的 head中
+	false 不插入生成的js文件，这个几乎不会用到的
+favicon 给你生成的html文件生成一个 favicon ,值是一个路径
+minify使用minify会对生成的html文件进行压缩
+cache默认是true的，表示内容变化的时候生成一个新的文件。
+showErrors当webpack报错的时候，会把错误信息包裹再一个pre中
+chunks chunks主要用于多入口文件；chunks: ['index','main'】编译后：
+	  <script type=text/javascript src="index.js"></script>
+	  <script type=text/javascript src="main.js"></script>
+excludeChunks excludeChunks: ['devor.js']排除掉一些js
+xhtml一个布尔值，默认值是 false ，如果为 true ,则以兼容 xhtml 的模式引用文件
+chunksSortMode script的顺序，默认四个选项： none auto dependency {function}
+	'dependency' 不用说，按照不同文件的依赖关系来排序。
+	'auto' 默认值，插件的内置的排序方式，具体顺序....
+	'none' 无序？
+	{function} 提供一个函数？
+
+  extract-text-webpack-plugin
   ------------------------------------
   resolve
   解决require和import路径问题
@@ -170,65 +224,56 @@ $表示结尾的意思，意思就是匹配vue
 如果没有$表示可以匹配vue这个单词
 -----------------------------------------
 module
-webpack4以上版本将use改为了loader
 定义rules和loader
 
-[
-    { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
-     {
-          test: '\.vue$',
-          loader: 'vue-loader',
-          options: {
-          hotReload: false // disables Hot Reload热更新
-            cssModules: {
-              localIdentName: '[path][name]---[local]---[hash:base64:5]',
-              camelCase: true
-            }
-          }
-        },
-        { test: /\.txt$/, use: 'raw-loader' }
-        ,
-           {
-            test: /\.js$/,
-            loader: 'babel-loader',
-            exclude: /node_modules/,
-            include: resolve('src')
-           },
-                 {
-                   test: /\.css$/,
-                   use: [
-                     'vue-style-loader',
-                     'css-loader'
-                   ]
-                 }，
-           {
-                test: /\.s?css$/,
-                use: [
-                 MiniCssExtractPlugin.loader,
-                 'css-loader',
-                 'sass-loader'
-                ]
-               },
-               {
-                test: /.(png|jpe?g|gif|svg)(\?.*)?$/,
-                loader: 'url-loader',
-                options: {
-                 limit: 10000,
-                 name: 'static/img/[name].[hash:7].[ext]'
-                }
-               },
-               {
-                test: /\.(js|vue)$/,
-                loader: 'eslint-loader',
-                enforce: 'pre',
-                include: [resolve('src')],
-                exclude: /node_modules/,
-                options: {
-                 formatter: require('eslint-friendly-formatter'),
-                 emitWarning: !config.dev.showEslintErrorsInOverlay
-                }
-               },
-]
+module:{rules:[
+{
+	test: /\.css$/,
+	loader: "style!css!less",
+	exclude: "/node_modules/",
+	enforce: 'pre',
+	include: [resolve('src')],
+	options:{
+		hotReload: false, // 热更新
+		cssModules: {localIdentName: '[path][name]---[local]---[hash:base64:5]',camelCase: true},
+		 limit: 10000,
+		 name: 'static/img/[name].[hash:7].[ext]',
+		 formatter: require('eslint-friendly-formatter'),
+         emitWarning: !config.dev.showEslintErrorsInOverlay
+	}
+	query:{
+    	name:'img/[name]-[hash:5].[ext]'  //不能和options同時用
+    }
+},
+{ test: /\.css$/, loaders: ["style","css","less"] }
+{ test: /\.html$/, loaders: "file-loader" },
+{ test: /\.js$/, loaders: "babel-loader" },
+{ test: /\.vue$/, loaders: "vue-loader"},
+{ test: /\.js$/, loaders: "babel-loader" },
+{ test: /\.css$/, loaders: [ 'vue-style-loader','css-loader']}
+{ test: /\.s?css$/, loaders: [ MiniCssExtractPlugin.loader,'css-loader','sass-loader']}
+{ test: /\.txt$/, loaders: 'raw-loader'}
+{ test: /.(png|jpe?g|gif|svg)(\?.*)?$/, loaders: 'url-loader'}
+{ test:  /\.(js|vue)$/, loaders: 'eslint-loader'}
+{test: /\.html$/,use: 'file-loader?limit=1024&name=[path][name].[ext]&outputPath=img/&publicPath=output/'}
+]}
+
+url-loader：1.1.1 会将引入的文件以base64编码，根據參數limit值來生成dataURl；
+只有文件超過limit值時，會調用file-loader，如果没有设置limit或者小於limit的文件全部转为base64方式
+1个参数：limit、+6個file-loader的參數
+两种方式字符串方式：
+1、use: 'url-loader?limit=1024&name=[path][name].[ext]&outputPath=img/&publicPath=output/',
+2、{ test: /\.(js|vue)$/, loader: 'eslint-loader', options: {}}
+
+file-loader:2.0.0;可以通過query得到options;也可以定義opitons
+6個參數：name、outputPath、publicPath、useRelativePath,context,emitFile。
+context:指定根地址，默認是webpack.config.js的路徑
+name可以是function也可以是string；通過loader-utils的interpolateName得到對應的規則[emoji] [hash] [ext] [name] [path] [folder];path是目錄帶/；folder表示文件夾（api/test/a.html這個路徑folder==test;path=="api/test/";name==a;ext==html）
+outputPath可以是function也可以是string；得到outputPath + name
+publicPath可以是function也可以是string；默認__webpack_public_path__ + outputPath；諾以"/"結尾就會得到publicPath+name方式;這值是針對Module export
+useRelativePath：是flag；會得到和context的當前file的相對地址RelativePath最終改變 outputPath = outputPath + RelativePath + name
+emitFile:false就導致loader不會生效
+
 vue-loader是一个webpack的loader；可以将vue文件转换为JS模块；
 vue-loader只处理.vue文件，你需要告诉webpack如何使用babel-loader或者buble-loader处理.js文件，在webpack中配置babel-loader或者buble-loader
 vue-loader依赖css-loader、vue-template-compiler
@@ -249,13 +294,9 @@ html-loader 这个包是为了解决html中img标签src引用的img这样通过�
 html-webpack-plugin
 vue-html-loader
 
-url-loader会将引入的图片编码，生成dataURl；url-loader封装了file-loader。url-loader不依赖于file-loader，（但不知具体原因是否是因为新版本url-loader将file-loader的功能剔除了。）
-1.文件大小小于limit参数，url-loader将会把文件转为DataURL；
-2.文件大小大于limit，url-loader会调用file-loader进行处理，参数也会直接传给file-loader
-4个参数：limit、name、outputPath、publicPath。
-两种方式字符串方式：1、use: 'url-loader?limit=1024&name=[path][name].[ext]&outputPath=img/&publicPath=output/',
-2、{ test: /\.(js|vue)$/, loader: 'eslint-loader', options: {}}
-如果没有设置limit将不会调用file-loader打包；全部转为base64方式
+
+
+
 
 1、在js中import图片然后赋值给图片的src属性
 import logo from '../img/logo.png';
@@ -269,6 +310,12 @@ document.getElementById('box').src = logo;
 
 
 webapck4.0+以上版本不再推荐使用extract-text-webpack-plugin处理css模块，而使推荐mini-css-extract-plugin
+實測we得到結論
+1、webpack默認不能解析html、直接將html作爲入口會報錯；(You may need an appropriate loader to handle this file type.)
+2、對於拷貝解析html的loader有；file-loader和html-webpack-plugin;
+3、plugin和loader的區別；对于loader，它就是一个转换器；对于plugin，它就是一个扩展器，
+
+
 --------------------------------------------
 externals
 表示不需要打包
@@ -276,3 +323,15 @@ externals
 target
 node表示运行环境为target
 ----------------------------------------------
+
+事件
+run：开始编译
+
+make：从entry开始递归分析依赖并对依赖进行build
+	--> build-moodule：使用loader加载文件并build模块
+	--> normal-module-loader：对loader加载的文件用acorn编译，生成抽象语法树AST
+	--> program：开始对AST进行遍历，当遇到require时触发call require事件
+	--> seal：所有依赖build完成，开始对chunk进行优化（抽取公共模块、加hash等）
+	--> optimize-chunk-assets：压缩代码
+
+emit：把各个chunk输出到结果文件
