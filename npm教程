@@ -5,3 +5,5 @@ package-lock.json其实用一句话来概括很简单，就是锁定安装时的
 package.json 文件（又称 pkg.module
 
 npm config edit会弹出编辑窗口，可以看到config的信息网上的淘宝镜像就是在这个里面
+
+npm link是对于离线安装的包一个链接，如果不连接即使package.json里面已包含的当前包也会在npm i 时会把离线包给删除掉;
