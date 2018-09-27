@@ -274,10 +274,37 @@ publicPath可以是function也可以是string；默認__webpack_public_path__ + 
 useRelativePath：是flag；會得到和context的當前file的相對地址RelativePath最終改變 outputPath = outputPath + RelativePath + name
 emitFile:false就導致loader不會生效
 
-vue-loader是一个webpack的loader；可以将vue文件转换为JS模块；
-vue-loader只处理.vue文件，你需要告诉webpack如何使用babel-loader或者buble-loader处理.js文件，在webpack中配置babel-loader或者buble-loader
-vue-loader依赖css-loader、vue-template-compiler
-所以要同时安装这两个
+vue-loader15.4.1是一个webpack的loader；可以将vue文件转换为JS模块；只处理.vue文件;依赖css-loader、vue-template-compiler所以要同时安装这两个
+功能点：1、ES2015默认支持 ；2、可以和其他loader组合使用
+配合css-loader vue-style-loader
+ {
+	test: /\.css$/,
+	oneOf: [
+	  // this applies to <style module>
+	  {
+	    resourceQuery: /module/,
+	    use: [
+	      'vue-style-loader',
+	      {
+		loader: 'css-loader',
+		options: {
+		  modules: true,
+		  localIdentName: '[local]_[hash:base64:8]'
+		}
+	      }
+	    ]
+	  },
+	  // this applies to <style> or <style scoped>
+	  {
+	    use: [
+	      'vue-style-loader',
+	      'css-loader'
+	    ]
+	  }
+	]
+},
+
+vue-loader，你需要告诉webpack如何使用babel-loader或者buble-loader处理.js文件，在webpack中配置babel-loader或者buble-loader
 html-webpack-plugin插件来导出html文件。
 这里打包css以sass 为例，用到了mini-css-extract-plugin插件提取css，用url-loader来处理字体、图片、音频等资源。非常简单
 postcss-loader
