@@ -303,7 +303,27 @@ vue-loader15.4.1是一个webpack的loader；可以将vue文件转换为JS模块�
 	  }
 	]
 },
+如果需要提取vue文件style到一个单独的文件的话就需要这样配置
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
+plugin
+            new MiniCssExtractPlugin({
+              filename: "[name].css",
+              chunkFilename: "[id].css"
+            })
+rule
+	     {
+                    test: /\.css$/,
+                    use: [
+                      {
+                        loader: MiniCssExtractPlugin.loader,
+                        options: {
+                          publicPath: '../'
+                        }
+                      },
+                      "css-loader"
+                    ]
+                  },
 vue-loader，你需要告诉webpack如何使用babel-loader或者buble-loader处理.js文件，在webpack中配置babel-loader或者buble-loader
 html-webpack-plugin插件来导出html文件。
 这里打包css以sass 为例，用到了mini-css-extract-plugin插件提取css，用url-loader来处理字体、图片、音频等资源。非常简单
