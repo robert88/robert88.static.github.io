@@ -24,3 +24,10 @@ number
 object
 array
 全部小写
+
+
+https://flow.org/en/docs/types/functions/
+function truthy(a, b): boolean %checks {
+  return (!!(a && b)) ;
+}
+加上这个%checks会真实的校验
