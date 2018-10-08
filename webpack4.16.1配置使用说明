@@ -366,6 +366,25 @@ webapck4.0+以上版本不再推荐使用extract-text-webpack-plugin处理css模
 --------------------------------------------
 externals
 表示不需要打包
+https://segmentfault.com/a/1190000012113011
+global - 外部 library 能够作为全局变量使用。用户可以通过在 script 标签中引入来实现。这是 externals 的默认设置。
+
+commonjs - 用户(consumer)应用程序可能使用 CommonJS 模块系统，因此外部 library 应该使用 CommonJS 模块系统，并且应该是一个 CommonJS 模块。
+
+commonjs2 - 类似上面几行，但导出的是 module.exports.default。
+
+amd - 类似上面几行，但使用 AMD 模块系统。
+externals: {
+  "lodash": {
+        commonjs: "lodash",//如果我们的库运行在Node.js环境中，import _ from 'lodash'等价于const _ = require('lodash')
+        commonjs2: "lodash",//同上
+        amd: "lodash",//如果我们的库使用require.js等加载,等价于 define(["lodash"], factory);
+        root: "_"//如果我们的库在浏览器中使用，需要提供一个全局的变量‘_’，等价于 var _ = (window._) or (_);
+  }
+}
+externals配置就是为了使import _ from 'lodash'这句代码，在本身不引入lodash的情况下，能够在各个环境都能解释执行
+externals引入jquery后，那么不管在代码中使用import $ from 'jquery'还是var $ = require('jquery');,这些代码都能在浏览器中很好的执行
+
 ---------------------------------------------
 target
 node表示运行环境为target
