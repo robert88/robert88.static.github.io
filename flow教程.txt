@@ -1,0 +1,26 @@
+
+参考https://segmentfault.com/a/1190000014840329
+在项目中安装flow npm i -D flow-bin
+flow init
+会生成config文件
+[declarations] 
+声明文件
+[include]
+需要检测的文件
+[ignore]
+忽略文件
+[libs]
+声明文件
+[lints]
+[options]
+[version]
+-------------------
+js文件头部需要加上这个标志
+//@flow或者/* @flow */
+var foo:?string=null
+类型有
+string
+number
+object
+array
+全部小写
