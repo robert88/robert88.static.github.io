@@ -23,6 +23,7 @@ string
 number
 object
 array
+any
 全部小写
 
 
@@ -30,4 +31,17 @@ https://flow.org/en/docs/types/functions/
 function truthy(a, b): boolean %checks {
   return (!!(a && b)) ;
 }
-加上这个%checks会真实的校验
+function truthy(a:?string, b:?string): string {
+  if(truthy(a, b)){
+    return a+b;// a+b在编译阶段会认为是?string,所有truthy需要加上%checks
+  }
+  return ""
+}
+加上这个%checks可避免报错
+
+  tag?: string | Class<Component> | Function | Object,
+  export default class VNode 
+  Array<VNode>
+
+
+
