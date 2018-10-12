@@ -42,6 +42,9 @@ function truthy(a:?string, b:?string): string {
   tag?: string | Class<Component> | Function | Object,
   export default class VNode 
   Array<VNode>
+  
+  不需要flow编译
+ // $flow-disable-line
 
 
 
