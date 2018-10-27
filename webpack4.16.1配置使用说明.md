@@ -14,6 +14,7 @@
 * https://www.cnblogs.com/wangyingblog/p/7027540.html
 * https://segmentfault.com/a/1190000010955254
 * https://segmentfault.com/a/1190000012113011
+* https://blog.csdn.net/joyce_lcy/article/details/78627268
 
 ##### entry
 
@@ -93,7 +94,7 @@ module:{
 	useRelativePath：是flag；會得到和context的當前file的相對地址RelativePath最終改變 outputPath = outputPath + RelativePath + name
 	emitFile:false就導致loader不會生效
 
-3、vue-loader15.4.1
+3、vue-loader15.4.1  
 vue-loader，你需要告诉webpack如何使用babel-loader或者buble-loader处理.js文件，在webpack中配置babel-loader或者buble-loader  
 这里打包css以sass 为例，用到了mini-css-extract-plugin插件提取css，用url-loader来处理字体、图片、音频等资源。非常简单  
 是一个webpack的loader；可以将vue文件转换为JS模块；只处理.vue文件;依赖css-loader、vue-template-compiler所以要同时安装这两个
@@ -153,7 +154,7 @@ new MiniCssExtractPlugin({
 
 
 
-3、postcss-loader
+3、postcss-loader  
 4、eslint-loader 来配置eslint的检查，建立.eslintrc.js去设置规则
 babel-load必须然后必须安装babel-loader babel-core
 https://www.npmjs.com/package/babel-loader
