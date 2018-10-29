@@ -17,6 +17,7 @@
 * https://blog.csdn.net/joyce_lcy/article/details/78627268
 * https://blog.csdn.net/E_li_na/article/details/80407091
 * https://webpack.docschina.org/plugins/split-chunks-plugin/
+* https://www.cnblogs.com/ufex/p/8758792.html
 
 ##### entry
 
