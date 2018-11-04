@@ -1,0 +1,1790 @@
+[error][2018/07/03 21:57:17][function (err, stdout) ]:{"killed":false,"code":1,"signal":null,"cmd":"start C:\Program Files\Internet Explorer\iexplore.exe "}
+[error][2018/07/04 20:30:54][function (err, stdout) ]:{"killed":false,"code":1,"signal":null,"cmd":"start C:\"Program Files"\Internet Explorer\iexplore.exe http://localhost:3000/index.html"}
+[error][2018/07/04 20:33:16][function (err, stdout) ]:{"killed":false,"code":1,"signal":null,"cmd":"start C:\"Program Files"\Internet Explorer\iexplore.exe http://localhost:3000/index.html"}
+[error][2018/07/04 20:34:03][function (err, stdout) ]:{"killed":false,"code":1,"signal":null,"cmd":"start C:\""Program Files\""Internet Explorer\""iexplore.exe http://localhost:3000/index.html"}
+[error][2018/07/04 20:36:41][function (err, stdout) ]:{"killed":false,"code":1,"signal":null,"cmd":"start C:\""Program Files\""Internet Explorer\""iexplore.exe http://localhost:3000/index.html"}
+[error][2018/07/04 20:38:19][function (err, stdout) ]:{"killed":false,"code":1,"signal":null,"cmd":"start C:\"2"\"16"\"34" http://localhost:3000/index.html"}
+[error][2018/07/04 21:35:35][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\docs\rap.server.response.js:97:19)
+    at module.exports (D:\git\docs\rap.server.response.js:230:13)
+    at D:\git\docs\rap.server.init.js:51:5
+    at module.exports (D:\git\docs\rap.server.request.js:88:3)
+    at Domain.<anonymous> (D:\git\docs\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\docs\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/04 21:40:37][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\docs\rap.server.response.js:97:19)
+    at module.exports (D:\git\docs\rap.server.response.js:230:13)
+    at D:\git\docs\rap.server.init.js:51:5
+    at module.exports (D:\git\docs\rap.server.request.js:88:3)
+    at Domain.<anonymous> (D:\git\docs\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\docs\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/04 21:48:57][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\docs\rap.server.response.js:96:10)
+    at module.exports (D:\git\docs\rap.server.response.js:229:4)
+    at D:\git\docs\rap.server.init.js:51:5
+    at module.exports (D:\git\docs\rap.server.request.js:88:3)
+    at Domain.<anonymous> (D:\git\docs\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\docs\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 12:31:01][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:96:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:229:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:88:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 13:40:51][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/addRootPath.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:96:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:234:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:88:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 13:41:11][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/addRootPath.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:96:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:234:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:88:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 13:51:30][function handlerErr(err,response,name)]:trycatch:TypeError: request.getHeader is not a function
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:233:23)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:88:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:23)
+[error][2018/07/07 13:53:06][function handlerErr(err,response,name)]:trycatch:TypeError: request.getHeader is not a function
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:233:23)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:88:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:23)
+[error][2018/07/07 13:53:17][function handlerErr(err,response,name)]:trycatch:TypeError: request.getHeader is not a function
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:233:23)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:88:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:23)
+[error][2018/07/07 13:55:01][function handlerErr(err,response,name)]:trycatch:TypeError: request.getHeader is not a function
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:234:23)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:88:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:23)
+[error][2018/07/07 13:56:22][function handlerErr(err,response,name)]:trycatch:TypeError: request.getHeader is not a function
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:234:23)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:88:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:23)
+[error][2018/07/07 14:02:52][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/addRootPath.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:96:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:239:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 14:11:59][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/addRootPath.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 14:18:36][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/addRootPath
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:30:48][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/getRootPath
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:31:00][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/getRootPath
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:31:36][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/getRootPath
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:32:37][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/getRootPath
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:33:37][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/getRootPath.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:35:44][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/getRootPath.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:36:12][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/getRootPath.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:36:51][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/getRootPath.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:38:49][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index/getRootPath.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:43:42][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:43:44][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:43:49][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:43:51][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/index.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:44:43][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/static/index.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:46:22][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.each.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:46:22][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.extend.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:46:22][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.dom.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:46:22][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.ajax.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:47:21][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.each.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:47:21][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.extend.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:47:21][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.dom.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:47:21][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.ajax.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:47:54][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.each.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:47:54][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.extend.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:47:54][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.dom.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:47:54][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.ajax.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:47:56][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.each.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:47:56][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.extend.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:47:56][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.dom.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 15:47:56][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/clientLib/RBT.ajax.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 16:53:28][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/07 16:53:45][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 10:29:57][function (err, stdout) ]:{"killed":false,"code":1,"signal":null,"cmd":"start D:\"Program Files"\"liebao"\"liebao.exe" http://localhost:3000/index.html"}
+[error][2018/07/08 10:31:05][function (err, stdout) ]:{"killed":false,"code":1,"signal":null,"cmd":"start D:\"Program Files"\"liebao"\"liebao.exe" http://localhost:3000/index.html"}
+[error][2018/07/08 10:31:42][function (err, stdout) ]:{"killed":false,"code":1,"signal":null,"cmd":"start D:\"Program Files"\"liebao"\"liebao.exe" http://localhost:3000/index.html"}
+[error][2018/07/08 10:39:31][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 10:40:30][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 10:58:53][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 11:11:24][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 13:55:54][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/ss
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:240:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 13:58:25][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/ss
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:240:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 13:59:41][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/ss
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:240:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 15:50:49][function handlerErr(err,response,name)]:trycatch:TypeError: rap.config.staticPathArr.splite is not a function
+    at Object.delRootPath [as /index/delrootpath] (D:\robert88.github.io\serverAction\index.js:15:30)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:216:31)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 15:50:49][function handlerErr(err,response,name)]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\robert88.github.io\rap.server.response.js:213:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/08 18:06:27][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 20:29:13][function handlerErr(err,response,name)]:trycatch:TypeError: rap.config.staticPathArr.splite is not a function
+    at Object.delRootPath [as /index/delrootpath] (D:\robert88.github.io\serverAction\index.js:15:30)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:216:31)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 20:29:13][function handlerErr(err,response,name)]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\robert88.github.io\rap.server.response.js:213:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/08 20:31:21][function handlerErr(err,response,name)]:trycatch:TypeError: rap.config.staticPathArr.splite is not a function
+    at Object.delRootPath [as /index/delrootpath] (D:\robert88.github.io\serverAction\index.js:15:30)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:216:31)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 20:31:21][function handlerErr(err,response,name)]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\robert88.github.io\rap.server.response.js:213:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/08 20:31:32][function handlerErr(err,response,name)]:trycatch:TypeError: rap.config.staticPathArr.splite is not a function
+    at Object.delRootPath [as /index/delrootpath] (D:\robert88.github.io\serverAction\index.js:15:30)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:216:31)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 20:31:32][function handlerErr(err,response,name)]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\robert88.github.io\rap.server.response.js:213:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/08 20:32:08][function handlerErr(err,response,name)]:trycatch:TypeError: rap.config.staticPathArr.splite is not a function
+    at Object.delRootPath [as /index/delrootpath] (D:\robert88.github.io\serverAction\index.js:15:30)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:216:31)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/08 20:32:08][function handlerErr(err,response,name)]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\robert88.github.io\rap.server.response.js:213:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/09 20:18:41][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/09 20:24:45][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/web/alarm.css
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/09 20:32:01][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/web/alarm.css
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/09 20:32:04][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/web/alarm.css
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/09 20:32:06][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/web/companyInfo.css
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/09 20:32:06][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/web/companyInfo.js
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/09 20:32:10][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/web/sysLog.css
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/09 20:32:14][function handlerErr(err,response,name)]:trycatch:Error: no such file or directory:/web/repairLog.css
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:230:4)
+    at D:\robert88.github.io\rap.server.init.js:51:5
+    at module.exports (D:\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:49:4)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:46:4)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/13 21:39:11][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 08:53:00][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:24][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/index.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:24][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:44][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.dom.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:44][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.url.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:44][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.each.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:44][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.extend.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:44][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.ajax.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:44][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.dom.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:44][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.url.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:44][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.ajax.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:44][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/img/bg.jpg
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:55][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.each.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:55][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.extend.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:55][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.dom.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:55][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.url.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:55][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.ajax.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:15:55][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/img/bg.jpg
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:16:16][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/img/bg.jpg
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:230:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:20:16][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/defaultWeb/undefined.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:21:17][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/defaultWeb/undefined.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:21:21][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/defaultWeb/undefined.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:21:31][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/defaultWeb/undefined.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/22 17:22:17][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/defaultWeb/undefined.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:92:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/28 20:05:32][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/index.html
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:231:4)
+    at D:\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/28 20:05:34][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:231:4)
+    at D:\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/29 18:43:26][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/index.html
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:231:4)
+    at D:\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/29 18:43:27][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:231:4)
+    at D:\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/29 19:58:40][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/index.html
+    at responseData (D:\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\robert88.github.io\rap.server.response.js:231:4)
+    at D:\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/29 20:55:54][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\robert88.github.io\rap.server.response.js:214:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/29 20:56:32][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\robert88.github.io\rap.server.response.js:214:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/29 21:01:40][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\robert88.github.io\rap.server.response.js:214:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/29 21:23:29][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\robert88.github.io\rap.server.response.js:214:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/29 21:23:35][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\robert88.github.io\rap.server.response.js:214:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/29 23:18:32][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:231:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/29 23:18:52][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:231:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/29 23:18:55][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:231:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/29 23:18:58][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:231:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/29 23:19:01][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:214:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/29 23:29:30][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:214:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/29 23:30:32][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:214:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/29 23:34:25][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:231:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/29 23:34:31][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:231:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/29 23:38:15][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:231:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/30 06:53:32][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:231:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/30 20:31:18][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:231:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/31 22:09:42][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/index.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:231:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/31 22:42:44][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/images/branding/product/ico/googleg_lodp.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:97:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:231:4)
+    at D:\git\robert88.github.io\rap.server.init.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/31 22:43:44][function handlerErr(err, response, name) ]:trycatch:TypeError: Cannot read property 'length' of undefined
+    at Object.getAllHtml [as /index/getallhtml] (D:\git\robert88.github.io\serverAction\index.js:35:47)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:226:31)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/31 22:44:14][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:223:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/31 22:47:04][function handlerErr(err, response, name) ]:trycatch:TypeError: Cannot read property 'length' of undefined
+    at Object.getAllHtml [as /index/getallhtml] (D:\git\robert88.github.io\serverAction\index.js:35:47)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:226:31)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/31 22:47:34][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:223:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/31 23:01:37][function handlerErr(err, response, name) ]:trycatch:TypeError: Cannot set property 'rootPath' of undefined
+    at Object.getAllHtml [as /index/getallhtml] (D:\git\robert88.github.io\serverAction\index.js:49:26)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:226:31)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/31 23:01:38][function handlerErr(err, response, name) ]:trycatch:TypeError: Cannot set property 'rootPath' of undefined
+    at Object.getAllHtml [as /index/getallhtml] (D:\git\robert88.github.io\serverAction\index.js:49:26)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:226:31)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/31 23:02:07][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:223:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/31 23:02:08][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:223:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/31 23:02:28][function handlerErr(err, response, name) ]:trycatch:TypeError: Cannot set property 'rootPath' of undefined
+    at Object.getAllHtml [as /index/getallhtml] (D:\git\robert88.github.io\serverAction\index.js:49:26)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:226:31)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/31 23:02:58][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:223:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/31 23:03:35][function handlerErr(err, response, name) ]:trycatch:TypeError: Cannot set property 'rootPath' of undefined
+    at Object.getAllHtml [as /index/getallhtml] (D:\git\robert88.github.io\serverAction\index.js:49:26)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:226:31)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/31 23:04:05][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:223:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/31 23:04:23][function handlerErr(err, response, name) ]:trycatch:TypeError: Cannot set property 'rootPath' of undefined
+    at Object.getAllHtml [as /index/getallhtml] (D:\git\robert88.github.io\serverAction\index.js:49:26)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:226:31)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/31 23:04:26][function handlerErr(err, response, name) ]:uncaughtException:TypeError: Cannot read property 'ADMIN' of undefined
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:208:93)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at IncomingMessage.<anonymous> (D:\git\robert88.github.io\rap.server.request.js:88:4)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error][2018/07/31 23:04:53][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:223:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/07/31 23:36:15][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/07/31 23:36:18][function handlerErr(err, response, name) ]:uncaughtException:TypeError: rap.hasPromission is not a function
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:208:44)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at IncomingMessage.<anonymous> (D:\git\robert88.github.io\rap.server.request.js:88:4)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error][2018/08/01 07:36:03][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:240:4)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/01 07:36:04][function handlerErr(err, response, name) ]:uncaughtException:Error: Cannot find module './rap.server.response.action.js'
+    at Function.Module._resolveFilename (module.js:536:15)
+    at Function.Module._load (module.js:466:25)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:209:3)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at IncomingMessage.<anonymous> (D:\git\robert88.github.io\rap.server.request.js:88:4)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+[error][2018/08/01 07:37:59][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:239:4)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/01 07:38:15][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:239:4)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/01 07:38:33][function handlerErr(err, response, name) ]:uncaughtException:TypeError: Cannot read property '/refreshaction' of undefined
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:218:29)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at IncomingMessage.<anonymous> (D:\git\robert88.github.io\rap.server.request.js:88:4)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error][2018/08/01 07:40:50][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:239:4)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/01 07:41:58][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:239:4)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:54:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.init.js:51:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/01 21:23:16][function (err, stdout) ]:can not find default browser uri
+[error][2018/08/01 21:29:53][function (err, stdout) ]:can not find default browser uri
+[error][2018/08/01 21:31:15][function (err, stdout) ]:can not find default browser uri
+[error][2018/08/01 21:34:39][function (err, stdout) ]:can not find default browser uri
+[error][2018/08/01 21:35:04][function (err, stdout) ]:can not find default browser uri
+[error][2018/08/01 21:35:55][function (err, stdout) ]:can not find default browser uri
+[error][2018/08/01 21:37:16][function (err, stdout) ]:can not find default browser uri
+[error][2018/08/01 21:38:45][function (err, stdout) ]:can not find default browser uri
+[error][2018/08/01 21:56:43][function handlerErr(err, response, name) ]:uncaughtException:TypeError: invalid pid
+    at process.kill (internal/process.js:167:13)
+    at doFilterFunc (D:\git\robert88.github.io\rap.server.response.js:212:11)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:225:5)
+    at D:\git\robert88.github.io\rap.server.init.js:56:17
+    at IncomingMessage.<anonymous> (D:\git\robert88.github.io\rap.server.request.js:88:4)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error][2018/08/02 21:06:51][function handlerErr(err, response, name) ]:uncaughtException:D:\git\robert88.github.io\serverAction\index.js:49
+				path[rootId]= await asyncFindFile(absolutePath);
+				                    ^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:599:28)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at D:\git\robert88.github.io\rap.server.action.js:30:22
+[error][2018/08/02 21:46:39][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:264:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/08/02 21:48:44][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:264:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/08/02 21:55:00][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:281:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/02 21:55:20][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.dom.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:281:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/02 21:55:20][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.extend.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:281:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/02 21:55:20][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.each.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:281:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/02 21:55:20][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.ajax.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:281:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/02 21:55:20][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.url.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:281:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/02 21:55:20][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.extend.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:281:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/02 21:55:20][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.dom.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:281:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/02 21:55:20][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.url.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:281:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/02 21:55:20][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/RBT.ajax.js
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:281:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/02 21:55:20][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/clientLib/img/bg.jpg
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:281:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/08/08 07:05:34][function handlerErr(err, response, name) ]:domainErrorEvent:D:\git\robert88.github.io\serverAction\index.js:91
+			"rapserver":"/defaultWeb/index.html";
+			                                    ^
+
+SyntaxError: Unexpected token ;
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:599:28)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at D:\git\robert88.github.io\rap.server.action.js:30:22
+[error][2018/08/08 07:05:37][function handlerErr(err, response, name) ]:domainErrorEvent:D:\git\robert88.github.io\serverAction\index.js:91
+			"rapserver":"/defaultWeb/index.html";
+			                                    ^
+
+SyntaxError: Unexpected token ;
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:599:28)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at D:\git\robert88.github.io\rap.server.action.js:30:22
+[error][2018/08/08 07:05:50][function handlerErr(err, response, name) ]:domainErrorEvent:D:\git\robert88.github.io\serverAction\index.js:91
+			"rapserver":"/defaultWeb/index.html";
+			                                    ^
+
+SyntaxError: Unexpected token ;
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:599:28)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at D:\git\robert88.github.io\rap.server.action.js:30:22
+[error][2018/08/08 07:06:06][function handlerErr(err, response, name) ]:domainErrorEvent:D:\git\robert88.github.io\serverAction\index.js:91
+			"rapserver":"/defaultWeb/index.html";
+			                                    ^
+
+SyntaxError: Unexpected token ;
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:599:28)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at D:\git\robert88.github.io\rap.server.action.js:30:22
+[error][2018/08/08 07:07:59][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:undefined
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at D:\git\robert88.github.io\rap.server.response.js:269:4
+    at Object./ (D:\git\robert88.github.io\serverAction\index.js:103:3)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:267:31)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+[error][2018/08/08 07:08:03][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:undefined
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:106:10)
+    at D:\git\robert88.github.io\rap.server.response.js:269:4
+    at Object./ (D:\git\robert88.github.io\serverAction\index.js:103:3)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:267:31)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+[error][2018/08/08 07:09:33][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:264:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/08/08 07:09:46][function handlerErr(err, response, name) ]:domainErrorEvent:Error: response timeout
+    at Timeout._onTimeout (D:\git\robert88.github.io\rap.server.response.js:264:10)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+[error][2018/08/22 21:55:52][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:103:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:236:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/09/02 16:00:28][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:112:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:245:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/09/10 22:07:57][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/index.html
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:112:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:245:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/09/10 22:07:58][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:112:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:245:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)
+[error][2018/09/11 21:09:02][function handlerErr(err, response, name) ]:trycatch:Error: no such file or directory:/favicon.ico
+    at responseData (D:\git\robert88.github.io\rap.server.response.js:112:10)
+    at module.exports (D:\git\robert88.github.io\rap.server.response.js:245:4)
+    at D:\git\robert88.github.io\rap.server.startHttp.js:52:17
+    at module.exports (D:\git\robert88.github.io\rap.server.request.js:104:3)
+    at Domain.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:50:13)
+    at Domain.run (domain.js:242:14)
+    at Server.<anonymous> (D:\git\robert88.github.io\rap.server.startHttp.js:47:7)
+    at emitTwo (events.js:126:13)
+    at Server.emit (events.js:214:7)
+    at parserOnIncoming (_http_server.js:602:12)

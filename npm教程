@@ -1,9 +1,0 @@
-npm init创建package.json 直接生成 npm init --yes   生成
-npm -D把依赖添加到devDependencies
-npm list --depth=0查看安装的依赖
-package-lock.json其实用一句话来概括很简单，就是锁定安装时的包的版本号，并且需要上传到git，以保证其他人在npm install时大家的依赖能保证一致
-package.json 文件（又称 pkg.module
-
-npm config edit会弹出编辑窗口，可以看到config的信息网上的淘宝镜像就是在这个里面
-
-npm link是对于离线安装的包一个链接，如果不连接即使package.json里面已包含的当前包也会在npm i 时会把离线包给删除掉;

@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a427d938-0768-44b9-8030-d8cf30842055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/credit/webpack.config.js" afterPath="$PROJECT_DIR$/credit/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6教程.txt" afterPath="$PROJECT_DIR$/es6教程.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsx教程.txt" afterPath="$PROJECT_DIR$/jsx教程.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lint教程" afterPath="$PROJECT_DIR$/lint教程" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postcss.txt" afterPath="$PROJECT_DIR$/postcss.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack4.16.1配置使用说明" afterPath="$PROJECT_DIR$/webpack4.16.1配置使用说明" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/本项目使用的测试工具.txt" afterPath="$PROJECT_DIR$/本项目使用的测试工具.txt" />
-    </list>
+    <list default="true" id="a427d938-0768-44b9-8030-d8cf30842055" name="Default" comment="" />
     <ignored path="robert88.static.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -35,8 +25,8 @@
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/credit/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+            <state relative-caret-position="1260">
+              <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -59,16 +49,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack4.16.1配置使用说明" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack4.16.1配置使用说明">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1146">
-              <caret line="209" column="30" selection-start-line="209" selection-start-column="30" selection-end-line="209" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -186,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,58 +234,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robert88.static.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robert88.static.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="credit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webpack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robert88.static.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robert88.static.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="credit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webpack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -706,15 +638,16 @@
       <workItem from="1537063200151" duration="1798000" />
       <workItem from="1537065043405" duration="5666000" />
       <workItem from="1537072567486" duration="20591000" />
+      <workItem from="1541336028640" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57662000" />
+    <option name="totallyTimeSpent" value="57680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -723,23 +656,23 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.259009" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19882101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19882101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2240991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2240991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -872,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="45" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,9 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -898,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3691">
           <caret line="295" column="9" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7320">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2580">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="586">
           <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,9 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -940,9 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="50" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="50" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="78" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,210 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1537109361875" expanded="true" signature="145:769" placeholder="{&quot;version&quot;: &quot;2.2.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="443:763" placeholder="{&quot;consolidate&quot;: &quot;0.15.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="797:1671" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="1065:1290" placeholder="{&quot;@webassemblyjs/helper-module-context&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="1314:1665" placeholder="{...}" />
-            <marker date="1537109361875" expanded="true" signature="1333:1657" placeholder="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="1608:1647" placeholder="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="1721:2019" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="2060:2340" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="2378:3081" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="2666:2700" placeholder="{&quot;debug&quot;: &quot;3.1.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="2724:3075" placeholder="{...}" />
-            <marker date="1537109361875" expanded="true" signature="2743:3067" placeholder="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="3018:3057" placeholder="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="3123:3482" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="3419:3476" placeholder="{&quot;@webassemblyjs/wast-printer&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="3517:3785" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="3831:4578" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="4135:4197" placeholder="{&quot;debug&quot;: &quot;3.1.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="4221:4572" placeholder="{...}" />
-            <marker date="1537109361875" expanded="true" signature="4240:4564" placeholder="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="4515:4554" placeholder="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="4623:4911" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="4955:5862" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="5255:5481" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="5505:5856" placeholder="{...}" />
-            <marker date="1537109361875" expanded="true" signature="5524:5848" placeholder="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="5799:5838" placeholder="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="5894:6213" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="6170:6207" placeholder="{&quot;ieee754&quot;: &quot;1.1.12&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="6244:6866" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="6518:6551" placeholder="{&quot;long&quot;: &quot;4.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="6575:6860" placeholder="{...}" />
-            <marker date="1537109361875" expanded="true" signature="6593:6852" placeholder="{&quot;version&quot;: &quot;4.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="6895:7151" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="7185:8270" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="7465:7889" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="7913:8264" placeholder="{...}" />
-            <marker date="1537109361875" expanded="true" signature="7932:8256" placeholder="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="8207:8246" placeholder="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="8303:8820" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="8581:8814" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="8853:9729" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="9131:9348" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="9372:9723" placeholder="{...}" />
-            <marker date="1537109361875" expanded="true" signature="9391:9715" placeholder="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="9666:9705" placeholder="{&quot;ms&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="9765:10341" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="10049:10335" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="10377:10984" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="10661:10978" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="11021:11434" placeholder="{&quot;version&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="11307:11428" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.5.13&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="11449:11690" placeholder="{&quot;version&quot;: &quot;5.7.2&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="11720:12045" placeholder="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="12005:12039" placeholder="{&quot;acorn&quot;: &quot;5.7.2&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="12058:12474" placeholder="{&quot;version&quot;: &quot;6.5.3&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="12309:12468" placeholder="{&quot;fast-deep-equal&quot;: &quot;2.0.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="12494:12683" placeholder="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="12705:12898" placeholder="{&quot;version&quot;: &quot;3.2.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="12918:13107" placeholder="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="13128:13319" placeholder="{&quot;version&quot;: &quot;2.2.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="13337:13679" placeholder="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="13598:13673" placeholder="{&quot;micromatch&quot;: &quot;3.1.10&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="13695:13938" placeholder="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="13956:14141" placeholder="{&quot;version&quot;: &quot;4.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="14162:14415" placeholder="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="14434:14621" placeholder="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="14643:14836" placeholder="{&quot;version&quot;: &quot;0.3.2&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="14853:15224" placeholder="{&quot;version&quot;: &quot;4.10.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="15114:15218" placeholder="{&quot;bn.js&quot;: &quot;4.11.8&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="15240:16020" placeholder="{&quot;version&quot;: &quot;1.4.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="15435:15469" placeholder="{&quot;util&quot;: &quot;0.10.3&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="15493:16014" placeholder="{...}" />
-            <marker date="1537109361875" expanded="true" signature="15515:15720" placeholder="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="15738:16006" placeholder="{&quot;version&quot;: &quot;0.10.3&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="15951:15996" placeholder="{&quot;inherits&quot;: &quot;2.0.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="16044:16241" placeholder="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="16261:16450" placeholder="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="16464:16703" placeholder="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="16729:17044" placeholder="{&quot;version&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="16946:17038" placeholder="{&quot;chalk&quot;: &quot;1.1.3&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="17064:17968" placeholder="{&quot;version&quot;: &quot;6.26.3&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="17331:17962" placeholder="{&quot;babel-code-frame&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="17993:18539" placeholder="{&quot;version&quot;: &quot;6.26.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="18270:18533" placeholder="{&quot;babel-messages&quot;: &quot;6.23.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="18604:19045" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="18899:19039" placeholder="{&quot;babel-helper-explode-assignable-expression&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="19081:19486" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="19318:19480" placeholder="{&quot;babel-helper-hoist-variables&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="19519:19909" placeholder="{&quot;version&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="19750:19903" placeholder="{&quot;babel-helper-function-name&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="19961:20348" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="20230:20342" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="20384:20828" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="20621:20822" placeholder="{&quot;babel-helper-get-function-arity&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="20869:21198" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="21116:21192" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="21236:21559" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="21477:21553" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="21606:21947" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="21865:21941" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="21975:22307" placeholder="{&quot;version&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="22196:22301" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="22354:22815" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="22613:22809" placeholder="{&quot;babel-helper-function-name&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="22852:23340" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="23091:23334" placeholder="{&quot;babel-helper-optimise-call-expression&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="23363:23659" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="23574:23653" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="23681:24059" placeholder="{&quot;version&quot;: &quot;7.1.5&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="23950:24053" placeholder="{&quot;find-cache-dir&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="24083:24345" placeholder="{&quot;version&quot;: &quot;6.23.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="24296:24339" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="24390:24694" placeholder="{&quot;version&quot;: &quot;6.22.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="24645:24688" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="24739:24979" placeholder="{&quot;version&quot;: &quot;6.13.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="25032:25288" placeholder="{&quot;version&quot;: &quot;6.13.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="25342:25601" placeholder="{&quot;version&quot;: &quot;6.22.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="25652:26084" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="25919:26078" placeholder="{&quot;babel-helper-remap-async-to-generator&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="26139:26463" placeholder="{&quot;version&quot;: &quot;6.22.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="26414:26457" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="26525:26863" placeholder="{&quot;version&quot;: &quot;6.22.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="26814:26857" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="26916:27370" placeholder="{&quot;version&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="27187:27364" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="27417:28067" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="27676:28061" placeholder="{&quot;babel-helper-define-map&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="28126:28494" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="28409:28488" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="28547:28867" placeholder="{&quot;version&quot;: &quot;6.23.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="28818:28861" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="28921:29276" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="29194:29270" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="29322:29628" placeholder="{&quot;version&quot;: &quot;6.23.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="29579:29622" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="29681:30082" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="29952:30076" placeholder="{&quot;babel-helper-function-name&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="30130:30440" placeholder="{&quot;version&quot;: &quot;6.22.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="30391:30434" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="30491:30911" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="30758:30905" placeholder="{&quot;babel-plugin-transform-es2015-modules-commonjs&quot;: &quot;6.26.2&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="30967:31480" placeholder="{&quot;version&quot;: &quot;6.26.2&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="31306:31474" placeholder="{&quot;babel-plugin-transform-strict-mode&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="31536:31948" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="31813:31942" placeholder="{&quot;babel-helper-hoist-variables&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="31999:32414" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="32266:32408" placeholder="{&quot;babel-plugin-transform-es2015-modules-amd&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="32466:32833" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="32735:32827" placeholder="{&quot;babel-helper-replace-supers&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="32883:33403" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="33148:33397" placeholder="{&quot;babel-helper-call-delegate&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="33463:33830" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="33748:33824" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="33876:34182" placeholder="{&quot;version&quot;: &quot;6.22.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="34133:34176" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="34234:34625" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="34503:34619" placeholder="{&quot;babel-helper-regex&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="34682:35010" placeholder="{&quot;version&quot;: &quot;6.22.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="34961:35004" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="35063:35383" placeholder="{&quot;version&quot;: &quot;6.23.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="35334:35377" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="35436:35829" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="35707:35823" placeholder="{&quot;babel-helper-regex&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="35885:36353" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="36162:36347" placeholder="{&quot;babel-helper-builder-binary-assignment-operator-visitor&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="36397:36707" placeholder="{&quot;version&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="36650:36701" placeholder="{&quot;regenerator-transform&quot;: &quot;0.10.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="36751:37086" placeholder="{&quot;version&quot;: &quot;6.24.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="37004:37080" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="37112:39234" placeholder="{&quot;version&quot;: &quot;1.7.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="37389:39228" placeholder="{&quot;babel-plugin-check-es2015-constants&quot;: &quot;6.22.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="39258:39708" placeholder="{&quot;version&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="39471:39702" placeholder="{&quot;babel-core&quot;: &quot;6.26.3&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="39731:40025" placeholder="{&quot;version&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="39942:40019" placeholder="{&quot;core-js&quot;: &quot;2.5.7&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="40049:40438" placeholder="{&quot;version&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="40262:40432" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="40462:40974" placeholder="{&quot;version&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="40675:40968" placeholder="{&quot;babel-code-frame&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="40995:41347" placeholder="{&quot;version&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="41202:41341" placeholder="{&quot;babel-runtime&quot;: &quot;6.26.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="41364:41611" placeholder="{&quot;version&quot;: &quot;6.18.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="41635:41832" placeholder="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="41846:43945" placeholder="{&quot;version&quot;: &quot;0.11.2&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="42101:42337" placeholder="{&quot;cache-base&quot;: &quot;1.0.1&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="42361:43939" placeholder="{...}" />
-            <marker date="1537109361875" expanded="true" signature="42390:42683" placeholder="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="42623:42673" placeholder="{&quot;is-descriptor&quot;: &quot;1.0.2&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="42719:43082" placeholder="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="43028:43072" placeholder="{&quot;kind-of&quot;: &quot;6.0.2&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="43114:43469" placeholder="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="43415:43459" placeholder="{&quot;kind-of&quot;: &quot;6.0.2&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="43496:43931" placeholder="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="43787:43921" placeholder="{&quot;is-accessor-descriptor&quot;: &quot;1.0.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="43964:44213" placeholder="{&quot;version&quot;: &quot;1.3.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="44229:44472" placeholder="{&quot;version&quot;: &quot;3.2.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="44499:44704" placeholder="{&quot;version&quot;: &quot;1.11.0&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="44722:44969" placeholder="{&quot;version&quot;: &quot;3.5.2&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="44984:45227" placeholder="{&quot;version&quot;: &quot;4.11.8&quot;...}" />
-            <marker date="1537109361875" expanded="true" signature="162902:162929" placeholder="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="92" column="22" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13294">
           <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1193,7 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,7 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1217,7 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1225,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1233,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="42" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,7 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1249,7 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,7 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,7 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1281,7 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1289,7 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1297,7 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1305,18 +1001,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/credit/src/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/credit/src/index.ejs" />
     <entry file="file://$PROJECT_DIR$/credit/node_modules/webpack/lib/EntryModuleNotFoundError.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1327,7 +1015,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack4.16.1配置使用说明">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1146">
+        <state relative-caret-position="4180">
           <caret line="209" column="30" selection-start-line="209" selection-start-column="30" selection-end-line="209" selection-end-column="30" />
           <folding />
         </state>
@@ -1369,8 +1057,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/credit/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+        <state relative-caret-position="1260">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
           <folding />
         </state>
       </provider>

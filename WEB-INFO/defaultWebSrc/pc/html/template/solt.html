@@ -1,0 +1,25 @@
+<!doctype>
+<html class="LANG-{{meta.lang}}">
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>{{meta.title}}</title>
+	<link href="{{meta.favicon}}" rel="shortcut icon">
+	<meta name="description" content="{{meta.description}}"/>
+	<meta name="keywords" content="{{meta.keywords}}"/>
+	<meta name="baidu-site-verification" content="{{meta.baidu&&meta.baidu.verification}}"/>
+	<include src="pcHeadCss.html"></include>
+	<include src="pcHeadJs.html"></include>
+</head>
+<body>
+	<include src="header.html" data-from="header.{{meta.lang}}.js"></include>
+	<include src="headerNav.html"></include>
+	<include src="breadCreab.html"></include>
+	<include src="toolbar.html"></include>
+	<solt id="pageContent"></solt>
+	<include src="footer.html"></include>
+	<include src="footerJs.html"></include>
+</body>
+</html>

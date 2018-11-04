@@ -1,2 +1,0 @@
-http://web.jobbole.com/82238/
-AMD、CMD、UMD 模块的写法
